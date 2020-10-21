@@ -1,11 +1,11 @@
 #include <string>
 #include "Empregado.hpp"
 
-class Engenheiro : public Empregado {
+string Engenheiro::getNome(){
+	std::cin >> Nome;
+};
 
-  public:
-    std::string nome;  
-	int projetos;
-	
+int Engenheiro::getNome(){
+        std::cin >> Projetos;
 };
 
